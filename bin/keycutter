@@ -193,7 +193,7 @@ keycutter-create() {
 
   # Ensure config dirs exists with correct perms
   dir-ensure "$KEYCUTTER_CONFIG_DIR" 0700
-  dir-ensure "$KEYCUTTER_CONFIG_DIR/sockets" 0700
+  dir-ensure "$KEYCUTTER_CONFIG_DIR/controlmaster/sockets" 0700
   dir-ensure "$(dirname "$ssh_key_path")" 0700
 
   # Create SSH Key for $ssh_keytag
