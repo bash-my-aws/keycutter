@@ -1,2 +1,3 @@
 # Override global .gitignore for sound files
 !sounds/*.wav
+/config/dot-ssh/
